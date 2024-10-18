@@ -1,0 +1,126 @@
+html {
+
+    height: 100%;
+
+    width: 100%;
+
+    font-family: 'Poppins', sans-serif;
+
+}
+
+h1 {
+    background-color: black;
+
+    color: ghostwhite;
+
+    text-align: center;
+
+}
+
+form {
+
+    max-width: 350px;
+
+    margin: 0 auto;
+
+    font-family: 'Poppins', sans-serif;
+
+    text-align: center;
+
+    background-color: ghostwhite;
+
+
+
+}
+
+div {
+
+    margin-bottom: 15px;
+
+    font-family: 'Poppins', sans-serif
+}
+
+button {
+
+    font-family: 'Poppins', sans-serif;
+
+    cursor: pointer;
+
+    background: yellowgreen;
+
+    border-color: yellowgreen;
+
+    border-radius: 4px;
+
+}
+
+#message {
+
+    text-align: center;
+
+    font-size: 20px;
+
+    margin-top: 10px;
+
+}
+
+#password {
+
+    border-color: aqua;
+
+    border-radius: 3px;
+
+}
+
+#email {
+
+    border-color: aqua;
+
+    border-radius: 3px;
+
+}
+
+
+#name {
+
+    border-color: aqua;
+
+    border-radius: 3px;
+
+}
+
+#birthday {
+
+    border-color: aqua;
+
+    border-radius: 3px;
+
+}
+
+#number {
+
+    border-color: aqua;
+
+    border-radius: 3px;
+
+}
+
+#f1 {
+
+    border-radius: 5px;
+
+}
+
+#nav {
+
+    background-color: rgba(34, 174, 167, 0.678);
+
+    height: 50px;
+
+    color: ghostwhite;
+
+    font-size: 40px;
+
+    text-align: center;
+
+}

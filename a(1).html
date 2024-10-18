@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="a(1).css">
+</head>
+
+<body>
+    <nav id="nav">Required Details</nav>
+    <hr>
+    <br>
+    <form id="loginForm" onsubmit="validate(event)">
+        <fieldset id="f1">
+            <legend id="l1">Personal Information</legend>
+
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+            </div>
+
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </div>
+
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" minlength="8">
+            </div>
+
+            <div>
+                <label for="number">Contact:</label>
+                <input type="number" id="number" name="number">
+            </div>
+
+            <div>
+                <label>Birthday:</label>
+                <input type="date" id="birthday" name="birthday">
+            </div>
+
+            <button type="submit" id="button">Login</button>
+        </fieldset>
+    </form>
+
+    <div id="message"></div>
+
+    <script src="a(1).js"></script>
+</body>
+
+</html>
